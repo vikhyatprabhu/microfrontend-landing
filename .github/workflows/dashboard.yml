@@ -5,11 +5,11 @@ on:
     branches:
       - master
     paths:
-      - 'packages/dashboard/**'
+      - 'dashboard/**'
 
 defaults:
   run:
-    working-directory: packages/dashboard
+    working-directory: dashboard
 
 jobs:
   build:
